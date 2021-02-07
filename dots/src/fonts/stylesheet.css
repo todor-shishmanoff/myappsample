@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Bold.woff2') format('woff2'),
+        url('Objective-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-ExtraBold.woff2') format('woff2'),
+        url('Objective-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Black.woff2') format('woff2'),
+        url('Objective-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Medium.woff2') format('woff2'),
+        url('Objective-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Thin.woff2') format('woff2'),
+        url('Objective-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Light.woff2') format('woff2'),
+        url('Objective-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Super.woff2') format('woff2'),
+        url('Objective-Super.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Objective';
+    src: url('Objective-Regular.woff2') format('woff2'),
+        url('Objective-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
