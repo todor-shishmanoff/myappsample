@@ -1,0 +1,45 @@
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer {
+  background: $main-bg-color;
+
+  .footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    color: $main-and-footer-text-color;
+  }
+
+  .footer__nav {
+    ul {
+      display: flex;
+      margin: 0 -8px;
+    }
+
+    li {
+      padding: 0 8px;
+    }
+  }
+
+  .footer__contacts {
+    ul {
+      display: flex;
+	  margin: 0 -8px;
+
+	  li {
+		  padding: 0 8px;
+	  }
+    }
+
+    .btn--footer {
+      background: $header-btn-bg-color;
+      padding: 6px 40px;
+    }
+
+	.socials {
+		font-size: 20px;
+	}
+  }
+}

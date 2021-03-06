@@ -1,0 +1,86 @@
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+  background: $header-bg-color;
+  color: $header-text-color;
+
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 0 10px;
+  }
+
+  .nav-header {
+
+      a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 3px;
+      }
+
+      a:hover:after {
+        width: 100%;
+        right: 0;
+      }
+
+      a:after {
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 1px;
+        left: 0;
+        position: absolute;
+        background: #fff;
+        transition: width 1s ease 0s, left 0.5s ease 0s;
+        width: 0;
+      }
+    }
+  }
+
+  .header__search {
+    display: flex;
+
+    .search {
+      width: 320px;
+      outline: none;
+      border: none;
+      height: 24px;
+      display: block;
+      
+
+      &::placeholder {
+        color: $header-btn-bg-color;
+        padding-left: 5px;
+        font-size: 13px;
+      }
+    }
+
+    .btn {
+      background: $header-btn-bg-color;
+      padding: 3px 15px;
+      border-radius: 0;
+      display: flex;
+      align-items: center;
+      font-size: 10px;
+    }
+  }
+
+  .header__user {
+    i {
+      padding-right: 10px;
+    }
+  }
+}
